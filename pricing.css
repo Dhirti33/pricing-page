@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.navbar>.left{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+ul.no-bullet{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+a:active{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar>.right{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.right>button{
+    background-color: lightgreen;
+    width: 12px 24px;
+    padding: 5px;
+}
+.right>a{
+    text-align: center;
+    justify-content: center;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: centers;
+    gap: 50px;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+}
+.card-container{
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+}
+.card-container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: blue;
+}
+.card-container>.container1,.container2,.container3{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.sign{
+    display: flex;
+}
+.sign>p{
+    justify-content: last baseline;
+}
+button{
+    width: auto;
+    height: 30px;
+    background-color: lightblue;
+    border: 0ch;
+    border-radius: 10px;
+}
+.button{
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.button>a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+}
+#info{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    height: 100px;
+    background-color: whitesmoke;
+}
